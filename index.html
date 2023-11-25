@@ -37,7 +37,7 @@
       </div>
       <!-- 功德录 -->
       <div class="gongdeLuBox" v-show="gongdeLuBox">
-        <div class="close" @click="closeGD"></div>
+        <div class="close" @click="closeGD">X</div>
         <h1>{{ListOfQualities}}</h1>
         <br />
         <div class="userName" v-for="(item,index) in Data" :key="index">
@@ -47,7 +47,7 @@
       </div>
       <!-- 上传功德 -->
       <div class="gongdeLuBox" v-show="shuangchuanBox">
-        <div class="close" @click="closeGDL"></div>
+        <div class="close" @click="closeGDL">X</div>
         <div
           style="
             text-align: center;
@@ -77,17 +77,17 @@
             >上传功德</el-button
           >
         </div>
-        <!-- 反馈 -->
+        <!-- 猫猫 -->
         <div class="feedBack">
-          <h3>BUG反馈：</h3>
+          <h3>猫猫木鱼</h3>
           <br />
-          <div>前端 : 1210946999@qq.com</div>
-          <div>后端 : 1063720909@qq.com</div>
-          <div style="color: pink">美术制作 :多多</div>
+          <div>积攒积攒功德</div>
+          <div>多敲会吧</div>
+          <div style="color: pink"></div>
         </div>
       </div>
       <!-- 版本号 -->
-      <div class="version">version:1.4.0</div>
+      <div class="version"></div>
     </div>
     <!-- 导入 Vue -->
     <script src="./asset/js/Vue.js"></script>
